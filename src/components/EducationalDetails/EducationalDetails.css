@@ -1,0 +1,33 @@
+.educational-details-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.educational-details-content {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  gap: 15px; /* Space between the logo and text */
+}
+
+.education-logo {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: Add some border-radius to the logo */
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.institution-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.degree {
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the items horizontally */
+    padding: 20px 0; /* Add vertical padding around the navbar */
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px; /* Space between the links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000; /* Black color for the text */
+    padding: 10px 15px; /* Padding around the link text */
+    position: relative; /* Position relative for line positioning */
+  
+  }
+  
+  .line {
+    width: 100%; /* Line spans the full width of the nav container */
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    margin-top: 10px; /* Space between links and line */
+  }
+  

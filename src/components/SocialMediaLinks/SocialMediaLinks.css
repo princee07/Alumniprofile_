@@ -1,0 +1,35 @@
+.social-media-links-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .social-media-links-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between each social media link */
+  }
+  
+  .social-media-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    
+  }
+  
+  .social-media-logo {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and name */
+  }
+  
+  .social-media-name {
+    font-weight: bold;
+  }
+  

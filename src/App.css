@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app-container {
+    width: 100%;
+    max-width: 800px; /* Ensures everything is centered and has the same width as Profile */
+    margin: 0 auto;
+    padding: 20px; /* Optional: Add some padding around the container */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end; /* Align the nav links to the right */
+    margin-top: 20px; /* Space between profile and nav links */
+    padding: 10px 15px;
+    position: relative; /* Create a positioning context for the pseudo-element */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .nav-links-inner {
+    display: flex; /* Align the links horizontally */
+     /* Border below the links */
   }
-}
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px; /* Space between the links */
+  }
+
+  .nav-link:hover{
+    color: blue;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .content-section {
+    margin-top: 20px; /* Space between nav links and content */
+  }
+  

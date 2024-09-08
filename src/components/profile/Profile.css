@@ -1,0 +1,84 @@
+.profile-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px; /* Optional padding */
+}
+
+.profile-content {
+  display: flex;
+  max-width: 800px; /* Adjust as needed */
+  width: 100%;
+  padding: 20px; /* Padding inside the profile section */
+  border-radius: 10px; /* Optional: rounded corners */
+
+}
+
+.profile-photo {
+  margin-right: 15px; /* Space between photo and text */
+}
+
+.profile-photo img {
+  border-radius: 50%; /* Circular photo */
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info .profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between header and content */
+}
+
+.profile-info h2 {
+  margin: 0;
+}
+
+.profile-pronouns {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+
+.college-info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.college-info img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.follow-message-buttons {
+  margin-top: 20px;
+}
+
+.follow-message-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follow-button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+
+.message-button {
+  background-color: #6c757d; /* Gray background */
+  color: white;
+}
